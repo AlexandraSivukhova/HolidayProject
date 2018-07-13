@@ -93,3 +93,103 @@ header {
 .introduceInfoText {
     width: 362px;
 }
+
+
+.Group-5{
+    margin-top: 82px;
+}
+
+ .message{
+    font-family: "AcromExtraBold", sans-serif;
+     width: 418px;
+     height: 310px;
+     box-shadow: -7px 12px 18px 10px #e7e7e7;
+     display: flex;
+     flex-direction: row;
+     margin: 0 auto;
+     text-transform: uppercase;
+     font-size: 12px;
+     position: relative;
+    padding-top: 25px;
+    margin-bottom: 57px;}
+
+li{
+    padding-top: 25px;
+}
+
+.negativ{
+    background: #000;
+    color: #fff;
+}
+ 
+ .Group-5 .mainMessage{
+     width: 209px;
+     text-align: end;
+     margin-top: 25px;
+ }
+
+ .Group-5 .secondMessage{
+     width: 209px;
+     margin-left: 10px;
+     margin-top: 25px;
+ }
+ .duration{
+    margin-bottom: 15px;
+ }
+
+ .duration_1{
+     padding-top: 0;
+ }
+
+ .bonus{
+     font-family: "AcromMedium", sans-serif;
+     font-size: 15px;
+     position: absolute;
+     left: 110px;
+    bottom: 59px;
+   color: #f07c3e;
+   text-transform: none;
+ }
+
+ .mainMessage::after{
+     content: "/";
+     position: absolute;
+     font-size: 40px;
+     font-weight: bold;
+     left: 70px;
+     bottom:50px;
+    }
+
+    .bonus::before{
+        content: "/";
+        position: absolute;
+        font-size: 70px;
+        bottom: 35px;
+        right: 90px;
+        transform: rotate(50deg);
+
+    }
+
+ .footer>a{
+     text-decoration: none;
+     color: #fff;
+     text-align: center;
+
+ }
+
+ .footer{
+    margin-bottom: 120px;
+    
+ }
+
+ .button{
+     display: block;
+     font-family: "AcromMedium", sans-serif;
+    width: 336px;
+    height: 49px;
+    font-size: 15px;
+    padding: 5px 25px 15px;
+    background:#f07c3e;
+    margin: 0 auto;
+    text-transform: uppercase;
+ }

@@ -76,7 +76,7 @@ header {
     letter-spacing: normal;
 }
 
-.title .negativ {
+ .negativ {
     background-color: #000;
     color: #fff;
 }
@@ -113,14 +113,21 @@ header {
     padding-top: 25px;
     margin-bottom: 57px;}
 
-li{
+.mainMessage>li{
+    padding-top: 25px;
+}
+.secondMessage>li{
     padding-top: 25px;
 }
 
-.negativ{
-    background: #000;
-    color: #fff;
+.duration{
+    margin-bottom: 15px;
 }
+
+.secondMessage>.duration_1{
+    padding-top: 0;
+}
+
  
  .Group-5 .mainMessage{
      width: 209px;
@@ -132,13 +139,6 @@ li{
      width: 209px;
      margin-left: 10px;
      margin-top: 25px;
- }
- .duration{
-    margin-bottom: 15px;
- }
-
- .duration_1{
-     padding-top: 0;
  }
 
  .bonus{
@@ -188,7 +188,7 @@ li{
     width: 336px;
     height: 49px;
     font-size: 15px;
-    padding: 5px 25px 15px;
+    padding: 17px 25px 17px;
     background:#f07c3e;
     margin: 0 auto;
     text-transform: uppercase;

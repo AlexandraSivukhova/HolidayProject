@@ -193,3 +193,69 @@ header {
     margin: 0 auto;
     text-transform: uppercase;
  }
+ 
+/*Carousel top*/
+.group-3-2 {
+    padding-top: 40px;
+}
+.about-title {
+    font-family: "AcromBold";
+    font-size: 50px;
+}
+ 
+.carousel-top {
+    width: 300px;
+    height: 190px;
+    margin: auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0), 0 10px 10px rgba(0,0,0,0.22);
+}
+  
+.about-text {
+    color: #000000;
+    font-family: "AcromMedium";
+    padding: 30px;
+    font-size: 18px;
+}
+  
+.about-text::before {
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #f06e2c;
+    margin-bottom: 15px;
+}
+  
+.slick-arrow {
+    position: absolute;
+    border: 0;
+    background-color: #ffffff;
+    height: 25px;
+    width: 15px;
+    z-index: 10;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+.slick-prev {
+    top: 75px;
+    left: -50px;
+}
+  
+.slick-prev::before {
+    content: "\003C";
+    color: #4b4949;
+    font-size: 20px;
+    width: 15px;
+    height: 15px;
+}
+  
+.slick-next {
+    top: 75px;
+    right: -50px;
+}
+  
+.slick-next::after {
+    content: "\003E";
+    color: #4b4949;
+}

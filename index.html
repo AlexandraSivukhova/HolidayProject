@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HolidayProject</title>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 <body>
     <div class="wrapper">
@@ -43,6 +44,22 @@
                     <p class="introduceInfoText">Курс расскажет, как научиться делать информационные сайты, и зарабатывать на них.</p>
                 </div>
             </section>
+        <!-- Carousel top -->
+        <section class="group-3-2">
+            <p class="about-title">[Обо мне]</p>
+            <div class="carousel-top">
+                <div>
+                    <p class="about-text">Успешно прошел курсы Марафон Пузат Начало 2017, Марафон Пузат Спарта 2017, сделав прибыльные сайты.</p>
+                </div>
+                <div>
+                    <p class="about-text">Вник в тему как создания посещаемого сайта, так и вопроса получения денег с него.</p>
+                </div>
+                <div>
+                    <p class="about-text">Создал 3 прибыльных сайта. Разработал сервис для вебмастеров  TextMania.ru.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Carousel top -->
     </div>
     <section class="Group-5">
         <div class="message">
@@ -64,5 +81,17 @@
         </div>
     </section> 
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel-top').slick({
+                autoplay: true,
+                autoplaySpeed: 5000,
+                prevArrow: '<button class="slick-prev"></button>',
+                nextArrow: '<button class="slick-next"></button>',
+            });
+        });
+    </script>
 </body>
 </html>

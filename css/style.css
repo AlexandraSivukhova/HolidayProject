@@ -195,12 +195,12 @@ header {
  }
  
 /*Carousel top*/
-.group-3-2 {
+ .group-3-2 {
     padding-top: 40px;
 }
 .about-title {
-    font-family: "AcromBold";
-    font-size: 50px;
+    font-family: "AcromExtraBold";
+    font-size: 32px;
 }
  
 .carousel-top {
@@ -213,8 +213,8 @@ header {
 .about-text {
     color: #000000;
     font-family: "AcromMedium";
-    padding: 30px;
-    font-size: 18px;
+    padding: 32px;
+    font-size: 14px;
 }
   
 .about-text::before {
@@ -240,22 +240,21 @@ header {
 .slick-prev {
     top: 75px;
     left: -50px;
-}
-  
-.slick-prev::before {
-    content: "\003C";
-    color: #4b4949;
-    font-size: 20px;
+    background-color: #d1d2d3;
     width: 15px;
-    height: 15px;
+    height: 25px;
+    border-style: solid;
+    border-width: 15px 25px 15px 0;
+    border-color:  #ffffff  #ffffff #ffffff;
 }
   
 .slick-next {
     top: 75px;
     right: -50px;
-}
-  
-.slick-next::after {
-    content: "\003E";
-    color: #4b4949;
+    width: 15px;
+    height: 25px;
+    background-color: #d1d2d3;
+    border-style: solid;
+    border-width: 15px 0 15px 25px;
+    border-color:  #ffffff  #ffffff #ffffff transparent;
 }

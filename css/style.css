@@ -93,7 +93,6 @@ header {
 .introduceInfoText {
     width: 362px;
 }
-
 .wrp {
     counter-reset: count-article;
     display: flex;
@@ -101,7 +100,6 @@ header {
     justify-content: flex-start;
     margin: 105px 0 85px 0;
     position: relative;
-
 }
 .TextBG {
     font-family: "AcromExtraBold";
@@ -127,7 +125,6 @@ article:before {
     top: -5px;
     left: -5px;
 }
-
 article:nth-child(-n+10):before {
     content: "0" counter(count-article) ".";
     left: -14px;
@@ -141,12 +138,11 @@ article:nth-child(-n+10):before {
     margin-left: 65px;
 }
 .wrp .program {
-    min-height: 185px;
+    min-height: 190px;
 }
-.wrp article:nth-child(4) .program {
-    min-height: 226px;
+.wrp .row3 {
+    min-height: 245px;
 }
-
 .wrp .program h3 {
     font-family: "AcromExtraBold";
     font-size: 12px;

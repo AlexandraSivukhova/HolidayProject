@@ -94,97 +94,168 @@ header {
     width: 362px;
 }
 
+.wrp {
+    counter-reset: count-article;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 105px 0 85px 0;
+    position: relative;
+
+}
+.TextBG {
+    font-family: "AcromExtraBold";
+    font-size: 183px;
+    line-height: 146px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    float: left;
+    left: 285px;
+    top: 85px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+}
+article:before {
+    counter-increment: count-article;
+    content: counter(count-article) "."; 
+    font-family: "AcromExtraBold";
+    font-size: 37px;
+    line-height: 43px;
+    float: left;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+article:nth-child(-n+10):before {
+    content: "0" counter(count-article) ".";
+    left: -14px;
+}
+.wrp article {
+    position: relative;
+    overflow: hidden;
+}
+.wrp .program, .wrp .homework {
+    width: 217px;
+    margin-left: 65px;
+}
+.wrp .program {
+    min-height: 183px;
+}
+.wrp article:nth-child(4) .program {
+    min-height: 226px;
+}
+
+.wrp .program h3 {
+    font-family: "AcromExtraBold";
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.wrp .homework h4 {
+    font-family:  "AcromMedium";
+    font-size: 11px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #f26228;
+    display: inline;
+}
+.wrp p {
+    font-family:  "AcromMedium";
+    font-size: 11px;
+    line-height: 15px;
+    color: #3f4144;
+    margin-bottom: 19px;
+}
+.wrp .program p:first-of-type::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #f26228;
+    float: left;
+    position: absolute;
+    left: 37px;
+}
+
 
 .Group-5{
     margin-top: 82px;
 }
 
- .message{
-    font-family: "AcromExtraBold", sans-serif;
-     width: 418px;
-     height: 310px;
-     box-shadow: -7px 12px 18px 10px #e7e7e7;
-     display: flex;
-     flex-direction: row;
-     margin: 0 auto;
-     text-transform: uppercase;
-     font-size: 12px;
-     position: relative;
+.message{
+font-family: "AcromExtraBold", sans-serif;
+    width: 418px;
+    height: 310px;
+    box-shadow: -7px 12px 18px 10px #e7e7e7;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
     padding-top: 25px;
-    margin-bottom: 57px;}
-
+    margin-bottom: 57px;
+}
 .mainMessage>li{
     padding-top: 25px;
 }
 .secondMessage>li{
     padding-top: 25px;
 }
-
 .duration{
     margin-bottom: 15px;
 }
-
 .secondMessage>.duration_1{
     padding-top: 0;
 }
-
- 
- .Group-5 .mainMessage{
-     width: 209px;
-     text-align: end;
-     margin-top: 25px;
- }
-
- .Group-5 .secondMessage{
-     width: 209px;
-     margin-left: 10px;
-     margin-top: 25px;
- }
-
- .bonus{
-     font-family: "AcromMedium", sans-serif;
-     font-size: 15px;
-     position: absolute;
-     left: 110px;
+.Group-5 .mainMessage{
+    width: 209px;
+    text-align: end;
+    margin-top: 25px;
+}
+.Group-5 .secondMessage{
+    width: 209px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.bonus{
+    font-family: "AcromMedium", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 110px;
     bottom: 59px;
-   color: #f07c3e;
-   text-transform: none;
- }
-
- .mainMessage::after{
-     content: "/";
-     position: absolute;
-     font-size: 40px;
-     font-weight: bold;
-     left: 70px;
-     bottom:50px;
-    }
-
-    .bonus::before{
-        content: "/";
-        position: absolute;
-        font-size: 70px;
-        bottom: 35px;
-        right: 90px;
-        transform: rotate(50deg);
-
-    }
-
- .footer>a{
-     text-decoration: none;
-     color: #fff;
-     text-align: center;
-
- }
-
- .footer{
-    margin-bottom: 120px;
-    
- }
-
- .button{
-     display: block;
-     font-family: "AcromMedium", sans-serif;
+    color: #f07c3e;
+    text-transform: none;
+}
+.mainMessage::after{
+    content: "/";
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    left: 70px;
+    bottom:50px;
+}
+.bonus::before{
+    content: "/";
+    position: absolute;
+    font-size: 70px;
+    bottom: 35px;
+    right: 90px;
+    transform: rotate(50deg);
+}
+.footer>a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.footer{
+margin-bottom: 120px;
+}
+.button{
+    display: block;
+    font-family: "AcromMedium", sans-serif;
     width: 336px;
     height: 49px;
     font-size: 15px;
@@ -192,4 +263,4 @@ header {
     background:#f07c3e;
     margin: 0 auto;
     text-transform: uppercase;
- }
+}

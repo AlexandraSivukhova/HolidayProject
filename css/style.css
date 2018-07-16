@@ -141,7 +141,7 @@ article:nth-child(-n+10):before {
     margin-left: 65px;
 }
 .wrp .program {
-    min-height: 183px;
+    min-height: 185px;
 }
 .wrp article:nth-child(4) .program {
     min-height: 226px;

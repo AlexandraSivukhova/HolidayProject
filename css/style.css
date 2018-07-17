@@ -103,8 +103,7 @@ header {
 }
 .grid1 {
     display: grid;
-    grid-auto-rows: minmax(185px, auto);
-    /* grid-template-rows:  240px; */
+    grid-template-rows:  240px;
     grid-row-gap:  20px;
 }
 .grid2, .grid4  {

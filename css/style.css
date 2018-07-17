@@ -93,14 +93,39 @@ header {
 .introduceInfoText {
     width: 362px;
 }
+
 .wrp {
     counter-reset: count-article;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    margin: 105px 0 85px 0;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns:  280px 280px 280px;
     position: relative;
 }
+.grid1 {
+    display: grid;
+    grid-auto-rows: minmax(185px, auto);
+    /* grid-template-rows:  240px; */
+    grid-row-gap:  20px;
+}
+.grid2, .grid4  {
+    display: grid;
+    grid-template-rows:  175px;
+    grid-row-gap:  20px;
+}
+.grid3 {
+    display: grid;
+    grid-template-rows:  160px;
+    grid-row-gap:  20px;
+    } 
+.grid5 {
+    display: grid;
+    grid-template-rows:  160px;
+    grid-row-gap: 20px;
+} 
+.wrp .program {
+    display: grid;
+    grid-template-rows:  60px;
+}  
 .TextBG {
     font-family: "AcromExtraBold";
     font-size: 183px;
@@ -125,6 +150,7 @@ article:before {
     top: -5px;
     left: -5px;
 }
+
 article:nth-child(-n+10):before {
     content: "0" counter(count-article) ".";
     left: -14px;
@@ -136,12 +162,6 @@ article:nth-child(-n+10):before {
 .wrp .program, .wrp .homework {
     width: 217px;
     margin-left: 65px;
-}
-.wrp .program {
-    min-height: 190px;
-}
-.wrp .row3 {
-    min-height: 245px;
 }
 .wrp .program h3 {
     font-family: "AcromExtraBold";

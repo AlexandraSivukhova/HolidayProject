@@ -245,7 +245,7 @@ header {
     height: 25px;
     border-style: solid;
     border-width: 15px 25px 15px 0;
-    border-color:  #ffffff  #ffffff #ffffff;
+    border-color:  #ffffff transparent #ffffff #ffffff;
 }
   
 .slick-next {

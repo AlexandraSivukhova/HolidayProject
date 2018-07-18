@@ -94,6 +94,46 @@ header {
     width: 362px;
 }
 
+
+.wrapper {
+    width: 848px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.leftimg {
+    float: left;
+    margin: 0 7px 7px 0;
+}
+
+.information {
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+.informationMessage {
+    font-size: 35.43px;
+    font-family: "AcromExtraBold";
+    line-height: 1.364;
+    margin: 23px 0 23px;
+}
+
+.informationText {
+    line-height: 1.5;
+    font-family: "AcromMedium";
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.informationText1 {
+    line-height: 1.5;
+    font-family: "AcromMedium";
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 20px 0 63px 0;
+}
+
 .wrp {
     counter-reset: count-article;
     margin-top: 55px;

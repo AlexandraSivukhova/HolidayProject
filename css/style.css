@@ -1,30 +1,30 @@
 @font-face {
-    font-family: "AcromBold";  
-    src: url("../fonts/AcromBold.ttf") format("truetype"); 
-    font-style: normal; 
+    font-family: "AcromBold";
+    src: url("../fonts/AcromBold.ttf") format("truetype");
+    font-style: normal;
     font-weight: normal;
-     }
+}
 
-@font-face{
-     font-family: "AcromExtraBold";
-     src: url("../fonts/AcromExtraBold.ttf") format("truetype");
-     font-style: normal; 
-    font-weight: normal; 
-    }
+@font-face {
+    font-family: "AcromExtraBold";
+    src: url("../fonts/AcromExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
-@font-face{
+@font-face {
     font-family: "AcromMedium";
     src: url("../fonts/AcromMedium.ttf") format("truetype");
-    font-style: normal; 
-    font-weight: normal; 
-    }
+    font-style: normal;
+    font-weight: normal;
+}
 
-@font-face{
+@font-face {
     font-family: "MyriadProRegular";
     src: url("../fonts/MyriadProRegular.ttf") format("truetype");
-    font-style: normal; 
-    font-weight: normal; 
-    }   
+    font-style: normal;
+    font-weight: normal;
+}
 
 * {
     margin: 0;
@@ -76,7 +76,7 @@ header {
     letter-spacing: normal;
 }
 
- .negativ {
+.negativ {
     background-color: #000;
     color: #fff;
 }
@@ -93,7 +93,6 @@ header {
 .introduceInfoText {
     width: 362px;
 }
-
 
 .wrapper {
     width: 848px;
@@ -138,33 +137,40 @@ header {
     counter-reset: count-article;
     margin-top: 55px;
     display: grid;
-    grid-template-columns:  280px 280px 280px;
+    grid-template-columns: 280px 280px 280px;
     position: relative;
 }
+
 .grid1 {
     display: grid;
-    grid-template-rows:  240px;
-    grid-row-gap:  20px;
+    grid-template-rows: 240px;
+    grid-row-gap: 20px;
 }
-.grid2, .grid4  {
+
+.grid2,
+.grid4 {
     display: grid;
-    grid-template-rows:  175px;
-    grid-row-gap:  20px;
+    grid-template-rows: 175px;
+    grid-row-gap: 20px;
 }
+
 .grid3 {
     display: grid;
-    grid-template-rows:  160px;
-    grid-row-gap:  20px;
-    } 
+    grid-template-rows: 160px;
+    grid-row-gap: 20px;
+}
+
 .grid5 {
     display: grid;
-    grid-template-rows:  160px;
+    grid-template-rows: 160px;
     grid-row-gap: 20px;
-} 
+}
+
 .wrp .program {
     display: grid;
-    grid-template-rows:  60px;
-}  
+    grid-template-rows: 60px;
+}
+
 .TextBG {
     font-family: "AcromExtraBold";
     font-size: 183px;
@@ -178,9 +184,10 @@ header {
     z-index: -1;
     transform: rotate(90deg);
 }
+
 article:before {
     counter-increment: count-article;
-    content: counter(count-article) "."; 
+    content: counter(count-article) ".";
     font-family: "AcromExtraBold";
     font-size: 37px;
     line-height: 43px;
@@ -194,14 +201,18 @@ article:nth-child(-n+10):before {
     content: "0" counter(count-article) ".";
     left: -14px;
 }
+
 .wrp article {
     position: relative;
     overflow: hidden;
 }
-.wrp .program, .wrp .homework {
+
+.wrp .program,
+.wrp .homework {
     width: 217px;
     margin-left: 65px;
 }
+
 .wrp .program h3 {
     font-family: "AcromExtraBold";
     font-size: 12px;
@@ -209,21 +220,24 @@ article:nth-child(-n+10):before {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 .wrp .homework h4 {
-    font-family:  "AcromMedium";
+    font-family: "AcromMedium";
     font-size: 11px;
     line-height: 20px;
     color: #fff;
     background-color: #f26228;
     display: inline;
 }
+
 .wrp p {
-    font-family:  "AcromMedium";
+    font-family: "AcromMedium";
     font-size: 11px;
     line-height: 15px;
     color: #3f4144;
     margin-bottom: 19px;
 }
+
 .wrp .program p:first-of-type::before {
     content: "";
     width: 8px;
@@ -234,13 +248,12 @@ article:nth-child(-n+10):before {
     left: 37px;
 }
 
-
-.Group-5{
+.Group-5 {
     margin-top: 82px;
 }
 
-.message{
-font-family: "AcromExtraBold", sans-serif;
+.message {
+    font-family: "AcromExtraBold", sans-serif;
     width: 418px;
     height: 310px;
     box-shadow: -7px 12px 18px 10px #e7e7e7;
@@ -253,29 +266,36 @@ font-family: "AcromExtraBold", sans-serif;
     padding-top: 25px;
     margin-bottom: 57px;
 }
-.mainMessage>li{
+
+.mainMessage>li {
     padding-top: 25px;
 }
-.secondMessage>li{
+
+.secondMessage>li {
     padding-top: 25px;
 }
-.duration{
+
+.duration {
     margin-bottom: 15px;
 }
-.secondMessage>.duration_1{
+
+.secondMessage>.duration_1 {
     padding-top: 0;
 }
-.Group-5 .mainMessage{
+
+.Group-5 .mainMessage {
     width: 209px;
     text-align: end;
     margin-top: 25px;
 }
-.Group-5 .secondMessage{
+
+.Group-5 .secondMessage {
     width: 209px;
     margin-left: 10px;
     margin-top: 25px;
 }
-.bonus{
+
+.bonus {
     font-family: "AcromMedium", sans-serif;
     font-size: 15px;
     position: absolute;
@@ -284,15 +304,17 @@ font-family: "AcromExtraBold", sans-serif;
     color: #f07c3e;
     text-transform: none;
 }
-.mainMessage::after{
+
+.mainMessage::after {
     content: "/";
     position: absolute;
     font-size: 40px;
     font-weight: bold;
     left: 70px;
-    bottom:50px;
+    bottom: 50px;
 }
-.bonus::before{
+
+.bonus::before {
     content: "/";
     position: absolute;
     font-size: 70px;
@@ -300,22 +322,230 @@ font-family: "AcromExtraBold", sans-serif;
     right: 90px;
     transform: rotate(50deg);
 }
-.footer>a{
+
+.footer>a {
     text-decoration: none;
     color: #fff;
     text-align: center;
 }
-.footer{
-margin-bottom: 120px;
+
+.footer {
+    margin-bottom: 120px;
 }
-.button{
+
+.button {
     display: block;
     font-family: "AcromMedium", sans-serif;
     width: 336px;
     height: 49px;
     font-size: 15px;
     padding: 17px 25px 17px;
-    background:#f07c3e;
+    background: #f07c3e;
     margin: 0 auto;
     text-transform: uppercase;
 }
+
+
+
+/*ROMA START*/
+
+
+/*ОБО МНЕ*/
+
+.about {
+    position: relative;
+}
+
+.about-box {
+    font-family: "AcromExtraBold", sans-serif;
+    width: 300px;
+    height: 170px;
+    box-shadow: -7px 10px 20px #e7e7e7;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.7;
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 57px;
+    padding-bottom: 25px;
+    padding-left: 26px;
+    padding-right: 50px
+}
+
+.box-text {
+    line-height: 1.5;
+    font-family: "AcromMedium";
+    font-size: 16px;
+}
+
+
+.box-text::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #f26228;
+    float: left;
+    position: absolute;
+    left: 26px;
+    top: 20px;
+}
+
+.pointer-right {
+    cursor: pointer;
+    position: absolute;
+	width: 0;
+    height: 0;
+    left: 340px;
+    top: 70px;;    
+	border-top: 15px solid transparent;
+	border-left: 25px solid #d1d2d3;
+	border-bottom: 18px solid transparent;
+}
+
+.pointer-left {
+    cursor: pointer;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 340px;
+    top: 70px;
+	border-top: 15px solid transparent;
+    border-right: 25px solid #d1d2d3;
+    border-bottom: 18px solid transparent;
+}
+
+/*========================================*/
+
+/* После курса */
+
+.afret-box {
+    width: 410px;
+    height: 170px;
+    padding-left: 94px;
+    display: flex;
+    flex-direction: row;    
+    position: relative;
+}
+
+.after-text {
+    line-height: 1.5;
+    font-family: "AcromMedium";
+    font-size: 16px;
+}
+
+.after-text::before {
+    content: "";
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+.after-text::after {
+    content: "";
+    float: left;
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: -185px;
+    left: 445px;
+    background-image: url('/img/introduce/after_course.jpg');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/*========================================*/
+
+/* Требования */
+
+.features img {
+    width: 275px;
+}
+
+.feauters-student {
+    display: flex;
+}
+
+.feauters-box {
+    width: 480px;
+    height: 280px;
+    box-shadow: -7px 10px 20px #e7e7e7;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.7;
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 57px;
+    padding-bottom: 25px;
+    padding-left: 26px;
+    padding-right: 50px
+}
+
+.features-pointer-right {
+    cursor: pointer;
+    position: absolute;
+	width: 0;
+    height: 0;
+    left: 491px;
+    top: 70px;;    
+	border-top: 10px solid transparent;
+	border-left: 20px solid #d1d2d3;
+	border-bottom: 12px solid transparent;
+}
+
+.features-pointer-left {
+    cursor: pointer;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 491px;
+    top: 70px;
+	border-top: 10px solid transparent;
+    border-right: 20px solid #d1d2d3;
+    border-bottom: 12px solid transparent;
+}
+
+.features-box-text {
+    line-height: 1.5;
+    font-family: "AcromMedium";
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.features-box-text span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-size: 12px;
+    background-color: #f26228;
+    color: #fff;
+    transform: rotate(-90deg);
+
+}
+
+.text-big {
+    position: relative;
+}
+
+.TextGOIT {
+    font-family: "AcromExtraBold";
+    font-size: 183px;
+    line-height: 146px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    width: 565px;
+    left: 449px;
+    top: 340px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(90deg);
+}
+
+/* ROMA END */

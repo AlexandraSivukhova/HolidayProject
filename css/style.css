@@ -1,30 +1,30 @@
 @font-face {
-    font-family: "AcromBold";
-    src: url("../fonts/AcromBold.ttf") format("truetype");
-    font-style: normal;
+    font-family: "AcromBold";  
+    src: url("../fonts/AcromBold.ttf") format("truetype"); 
+    font-style: normal; 
     font-weight: normal;
-}
+     }
 
-@font-face {
-    font-family: "AcromExtraBold";
-    src: url("../fonts/AcromExtraBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+@font-face{
+     font-family: "AcromExtraBold";
+     src: url("../fonts/AcromExtraBold.ttf") format("truetype");
+     font-style: normal; 
+    font-weight: normal; 
+    }
 
-@font-face {
+@font-face{
     font-family: "AcromMedium";
     src: url("../fonts/AcromMedium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+    font-style: normal; 
+    font-weight: normal; 
+    }
 
-@font-face {
+@font-face{
     font-family: "MyriadProRegular";
     src: url("../fonts/MyriadProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+    font-style: normal; 
+    font-weight: normal; 
+    }   
 
 * {
     margin: 0;
@@ -94,6 +94,7 @@ header {
     width: 362px;
 }
 
+
 .wrapper {
     width: 848px;
     margin: 0 auto;
@@ -137,58 +138,38 @@ header {
     counter-reset: count-article;
     margin-top: 55px;
     display: grid;
-    grid-template-columns: 280px 280px 280px;
+    grid-template-columns:  280px 280px 280px;
     position: relative;
 }
 
 .grid1 {
     display: grid;
-    grid-template-rows: 240px;
-    grid-row-gap: 20px;
+    grid-template-rows:  240px;
+    grid-row-gap:  20px;
 }
 
-<<<<<<< HEAD
-.grid2,
-.grid4 {
-=======
 .grid2, .grid4  {
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     display: grid;
-    grid-template-rows: 175px;
-    grid-row-gap: 20px;
+    grid-template-rows:  175px;
+    grid-row-gap:  20px;
 }
 
 .grid3 {
     display: grid;
-<<<<<<< HEAD
-    grid-template-rows: 160px;
-    grid-row-gap: 20px;
-}
-=======
     grid-template-rows:  160px;
     grid-row-gap:  20px;
 } 
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
 
 .grid5 {
     display: grid;
-    grid-template-rows: 160px;
+    grid-template-rows:  160px;
     grid-row-gap: 20px;
-<<<<<<< HEAD
-}
-
-.wrp .program {
-    display: grid;
-    grid-template-rows: 60px;
-}
-=======
 } 
 
 .wrp .program {
     display: grid;
     grid-template-rows:  60px;
 }  
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
 
 .TextBG {
     font-family: "AcromExtraBold";
@@ -206,7 +187,7 @@ header {
 
 article:before {
     counter-increment: count-article;
-    content: counter(count-article) ".";
+    content: counter(count-article) "."; 
     font-family: "AcromExtraBold";
     font-size: 37px;
     line-height: 43px;
@@ -227,12 +208,7 @@ article:nth-child(-n+10):before {
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-.wrp .program,
-.wrp .homework {
-=======
 .wrp .program, .wrp .homework {
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     width: 217px;
     margin-left: 65px;
 }
@@ -246,7 +222,7 @@ article:nth-child(-n+10):before {
 }
 
 .wrp .homework h4 {
-    font-family: "AcromMedium";
+    font-family:  "AcromMedium";
     font-size: 11px;
     line-height: 20px;
     color: #fff;
@@ -255,7 +231,7 @@ article:nth-child(-n+10):before {
 }
 
 .wrp p {
-    font-family: "AcromMedium";
+    font-family:  "AcromMedium";
     font-size: 11px;
     line-height: 15px;
     color: #3f4144;
@@ -272,19 +248,11 @@ article:nth-child(-n+10):before {
     left: 37px;
 }
 
-<<<<<<< HEAD
-.Group-5 {
-    margin-top: 82px;
-}
-
-.message {
-=======
 .Group-5{
     margin-top: 82px;
 }
 
 .message{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     font-family: "AcromExtraBold", sans-serif;
     width: 418px;
     height: 310px;
@@ -299,25 +267,6 @@ article:nth-child(-n+10):before {
     margin-bottom: 57px;
 }
 
-<<<<<<< HEAD
-.mainMessage>li {
-    padding-top: 25px;
-}
-
-.secondMessage>li {
-    padding-top: 25px;
-}
-
-.duration {
-    margin-bottom: 15px;
-}
-
-.secondMessage>.duration_1 {
-    padding-top: 0;
-}
-
-.Group-5 .mainMessage {
-=======
 .mainMessage>li{
     padding-top: 25px;
 }
@@ -335,27 +284,18 @@ article:nth-child(-n+10):before {
 }
 
 .Group-5 .mainMessage{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     width: 209px;
     text-align: end;
     margin-top: 25px;
 }
 
-<<<<<<< HEAD
-.Group-5 .secondMessage {
-=======
 .Group-5 .secondMessage{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     width: 209px;
     margin-left: 10px;
     margin-top: 25px;
 }
 
-<<<<<<< HEAD
-.bonus {
-=======
 .bonus{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     font-family: "AcromMedium", sans-serif;
     font-size: 15px;
     position: absolute;
@@ -365,24 +305,16 @@ article:nth-child(-n+10):before {
     text-transform: none;
 }
 
-<<<<<<< HEAD
-.mainMessage::after {
-=======
 .mainMessage::after{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     content: "/";
     position: absolute;
     font-size: 40px;
     font-weight: bold;
     left: 70px;
-    bottom: 50px;
+    bottom:50px;
 }
 
-<<<<<<< HEAD
-.bonus::before {
-=======
 .bonus::before{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     content: "/";
     position: absolute;
     font-size: 70px;
@@ -391,246 +323,28 @@ article:nth-child(-n+10):before {
     transform: rotate(50deg);
 }
 
-<<<<<<< HEAD
-.footer>a {
-=======
 .footer>a{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     text-decoration: none;
     color: #fff;
     text-align: center;
 }
 
-<<<<<<< HEAD
-.footer {
-    margin-bottom: 120px;
-}
-
-.button {
-=======
 .footer{
 margin-bottom: 120px;
 }
 
 .button{
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f
     display: block;
     font-family: "AcromMedium", sans-serif;
     width: 336px;
     height: 49px;
     font-size: 15px;
     padding: 17px 25px 17px;
-    background: #f07c3e;
+    background:#f07c3e;
     margin: 0 auto;
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-
-
-/*ROMA START*/
-
-
-/*ОБО МНЕ*/
-
-.about {
-    position: relative;
-}
-
-.about-box {
-    font-family: "AcromExtraBold", sans-serif;
-    width: 300px;
-    height: 170px;
-    box-shadow: -7px 10px 20px #e7e7e7;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    font-size: 12px;
-    line-height: 1.7;
-    position: relative;
-    padding-top: 35px;
-    margin-bottom: 57px;
-    padding-bottom: 25px;
-    padding-left: 26px;
-    padding-right: 50px
-}
-
-.box-text {
-    line-height: 1.5;
-    font-family: "AcromMedium";
-    font-size: 16px;
-}
-
-
-.box-text::before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #f26228;
-    float: left;
-    position: absolute;
-    left: 26px;
-    top: 20px;
-}
-
-.pointer-right {
-    cursor: pointer;
-    position: absolute;
-	width: 0;
-    height: 0;
-    left: 340px;
-    top: 70px;;    
-	border-top: 15px solid transparent;
-	border-left: 25px solid #d1d2d3;
-	border-bottom: 18px solid transparent;
-}
-
-.pointer-left {
-    cursor: pointer;
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 340px;
-    top: 70px;
-	border-top: 15px solid transparent;
-    border-right: 25px solid #d1d2d3;
-    border-bottom: 18px solid transparent;
-}
-
-/*========================================*/
-
-/* После курса */
-
-.afret-box {
-    width: 410px;
-    height: 170px;
-    padding-left: 94px;
-    display: flex;
-    flex-direction: row;    
-    position: relative;
-}
-
-.after-text {
-    line-height: 1.5;
-    font-family: "AcromMedium";
-    font-size: 16px;
-}
-
-.after-text::before {
-    content: "";
-    width: 60px;
-    height: 10px;
-    background-color: black;
-    float: left;
-    position: absolute;
-    left: 0px;
-    top: 5px;
-}
-
-.after-text::after {
-    content: "";
-    float: left;
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    top: -185px;
-    left: 445px;
-    background-image: url('/img/introduce/after_course.jpg');
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-
-/*========================================*/
-
-/* Требования */
-
-.features img {
-    width: 275px;
-}
-
-.feauters-student {
-    display: flex;
-}
-
-.feauters-box {
-    width: 480px;
-    height: 280px;
-    box-shadow: -7px 10px 20px #e7e7e7;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    font-size: 12px;
-    line-height: 1.7;
-    position: relative;
-    padding-top: 35px;
-    margin-bottom: 57px;
-    padding-bottom: 25px;
-    padding-left: 26px;
-    padding-right: 50px
-}
-
-.features-pointer-right {
-    cursor: pointer;
-    position: absolute;
-	width: 0;
-    height: 0;
-    left: 491px;
-    top: 70px;;    
-	border-top: 10px solid transparent;
-	border-left: 20px solid #d1d2d3;
-	border-bottom: 12px solid transparent;
-}
-
-.features-pointer-left {
-    cursor: pointer;
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 491px;
-    top: 70px;
-	border-top: 10px solid transparent;
-    border-right: 20px solid #d1d2d3;
-    border-bottom: 12px solid transparent;
-}
-
-.features-box-text {
-    line-height: 1.5;
-    font-family: "AcromMedium";
-    font-size: 16px;
-    padding-left: 25px;
-}
-
-.features-box-text span {
-    position: absolute;
-    left: 10px;
-    top: 50px;
-    font-size: 12px;
-    background-color: #f26228;
-    color: #fff;
-    transform: rotate(-90deg);
-
-}
-
-.text-big {
-    position: relative;
-}
-
-.TextGOIT {
-    font-family: "AcromExtraBold";
-    font-size: 183px;
-    line-height: 146px;
-    text-transform: uppercase;
-    color: #f2f2f2;
-    width: 565px;
-    left: 449px;
-    top: 340px;
-    position: absolute;
-    z-index: -1;
-    transform: rotate(90deg);
-}
-
-/* ROMA END */
-=======
 /*Carousel top*/
 .group-3-2 {
     padding-top: 40px;
@@ -695,4 +409,3 @@ margin-bottom: 120px;
     border-width: 15px 0 15px 25px;
     border-color:  #ffffff  #ffffff #ffffff transparent;
 }
->>>>>>> 524189c9fb10beede10792ef26ad73115ab5b37f

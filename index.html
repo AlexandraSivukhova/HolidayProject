@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HolidayProject</title>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 <body>
     <div class="wrapper">
@@ -36,10 +37,10 @@
             </header>
             <section class="introduce">
                 <h2 class="title">
-                    Курс</br><span class="negativ">&#91Бизнес на</br> информационных сайтах&#93</span>
+                    Курс<br><span class="negativ">&#91Бизнес на<br> информационных сайтах&#93</span>
                 </h2>
                 <div class="introduceInfo">
-                    <p><img src="img/introduce/dash.png" alt="dash"</p>
+                    <p><img src="img/introduce/dash.png" alt="dash"></p>
                     <p class="introduceInfoText">Курс расскажет, как научиться делать информационные сайты, и зарабатывать на них.</p>
                 </div>
             </section>
@@ -50,20 +51,40 @@
                 <img src="https://b.radikal.ru/b03/1807/e1/5faf144b7b59.png" alt="Code People" width="415" height="513" class="leftimg">
             </a>
             <div class="quad">
-                <p>
-                    <img src="https://d.radikal.ru/d27/1807/f7/dc7f7433ee58.jpg" alt="quad" </p>
-                    <h2 class="informationMessage">[Информационные</br> сайты]</h2>
-                    <p class="informationText">это сайты, которые отвечают на вопросы</br> людей. Например, сайт про рыбалку, про строительство дома,
-                        про приложения для мобильных телефонов. Особенность таких</br> сайтов — на них не продаются никакие
+                    <img src="https://d.radikal.ru/d27/1807/f7/dc7f7433ee58.jpg" alt="quad">
+                    <h2 class="informationMessage">[Информационные<br> сайты]</h2>
+                    <p class="informationText">это сайты, которые отвечают на вопросы<br> людей. Например, сайт про рыбалку, про строительство дома,
+                        про приложения для мобильных телефонов. Особенность таких<br> сайтов — на них не продаются никакие
                         товары,
-                        </br>
-                        а деньги зарабатываются контекстной</br> рекламой. При правильном подходе это</br> хороший полупассивный
+                        <br>
+                        а деньги зарабатываются контекстной<br> рекламой. При правильном подходе это<br> хороший полупассивный
                         способ заработка
-                        </br> денег.</p>
-                    <p class="informationText1"> Можно начать с одного сайта,</br> и заниматься этим как хобби, получая</br> дополнительный доход. А можно
+                        <br> денег.
+                    </p>
+                    <p class="informationText1"> Можно начать с одного сайта,<br> и заниматься этим как хобби, получая<br> дополнительный доход. А можно
                         сделать много
-                        </br> сайтов, и сделать это основным источником</br> дохода.</p>
+                        <br> сайтов, и сделать это основным источником<br> дохода.
+                    </p>
             </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <!-- Carousel top -->
+        <section class="group-3-2 wrapper">
+            <p class="about-title">[Обо мне]</p>
+            <div class="carousel-top">
+                <div>
+                    <p class="about-text">Успешно прошел курсы Марафон Пузат Начало 2017, Марафон Пузат Спарта 2017, сделав прибыльные сайты.</p>
+                </div>
+                <div>
+                    <p class="about-text">Вник в тему как создания посещаемого сайта, так и вопроса получения денег с него.</p>
+                </div>
+                <div>
+                    <p class="about-text">Создал 3 прибыльных сайта. Разработал сервис для вебмастеров  TextMania.ru.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Carousel top -->
     </div>
     <section>
         <div class="wrapper">
@@ -265,7 +286,7 @@
         <div class="message">
            <ul class="mainMessage">
              <li><p><span class="negativ">Дата старта курса:</span></p></li>
-             <li><p><span class="negativ">Продолжительность<br>обученния:</span></li>
+             <li><p><span class="negativ">Продолжительность<br>обученния:</span></p></li>
              <li><p><span class="negativ">Стоимость обучения:</span></p></li>
             </ul>
             <ul class="secondMessage">
@@ -281,5 +302,17 @@
         </div>
     </section> 
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel-top').slick({
+                autoplay: true,
+                autoplaySpeed: 5000,
+                prevArrow: '<button class="slick-prev"></button>',
+                nextArrow: '<button class="slick-next"></button>',
+            });
+        });
+    </script>
 </body>
 </html>

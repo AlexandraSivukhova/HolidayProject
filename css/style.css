@@ -44,13 +44,14 @@ a {
 .wrapper {
     margin: 0 auto;
     width: 848px;
-    margin-top: 33px;
+    /*padding: 56px 0;*/
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 
 .contact {
@@ -95,11 +96,11 @@ header {
 }
 
 
-.wrapper {
+/*.wrapper {
     width: 848px;
     margin: 0 auto;
     padding: 56px 0;
-}
+}*/
 
 .leftimg {
     float: left;
@@ -110,6 +111,7 @@ header {
     display: block;
     float: left;
     margin: 0 auto;
+    margin-top: 55px;
 }
 
 .informationMessage {
@@ -140,6 +142,10 @@ header {
     display: grid;
     grid-template-columns:  280px 280px 280px;
     position: relative;
+}
+
+.wrapProgram {
+    margin-top: 95px;
 }
 
 .grid1 {
@@ -538,7 +544,7 @@ margin-bottom: 120px;
     position: relative;
 }
 
-.TextGOIT {
+.TextGoit {
     font-family: "AcromExtraBold";
     font-size: 183px;
     line-height: 146px;
@@ -550,6 +556,14 @@ margin-bottom: 120px;
     position: absolute;
     z-index: -1;
     transform: rotate(90deg);
+}
+
+.wrapAfterCourse {
+    margin-top: 140px;
+}
+
+.wrapFeautersStudent {
+    margin-top: 200px;
 }
 
 /* ROMA END */
